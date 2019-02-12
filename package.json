@@ -1,0 +1,29 @@
+{
+  "name": "secret-img",
+  "version": "1.0.2",
+  "description": "encrypt/decrypt images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imfunniee/secret-img.git"
+  },
+  "author": "imfunny",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "bugs": {
+    "url": "https://github.com/imfunniee/secret-img/issues"
+  },
+  "homepage": "https://github.com/imfunniee/secret-img#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "base64-img": "^1.0.4",
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "jimp": "^0.6.0",
+    "nacl-encrypt": "^1.0.2"
+  }
+}
