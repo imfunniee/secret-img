@@ -19,7 +19,7 @@ const rl = readline.createInterface({
 });
 
 program
-    .version('1.0.2', '-v, --version')
+    .version('1.0.3', '-v, --version')
     .option('-e, --encrypt', 'encrypt image')
     .option('-d, --decrypt', 'decrypt image');
  
